@@ -1,18 +1,16 @@
-# git_instructions
-Guidlelines for registering and maintaining a project in git/github
-
-My Learned git experiences
+# Guidlelines for registering and maintaining a project in git/github
 
 1. One time activity (loads ~/.gitconfig)
 Add name, email
-   git config --global user.name "Ron Grimes"
-   git config --global user.email ron.grimes@pobox.com
-   git config --global push.default "simple"    [[ verify  ]]
+`  git config --global user.name "Ron Grimes"`  
+`  git config --global user.email ron.grimes@pobox.com`  
+`  git config --global push.default "simple"`    [[ verify  ]]
 
 Check global values   
    git config -l
 
------------------------------------------------------------------------------
+---
+
 Project Initialize:
    git init
 
@@ -51,7 +49,7 @@ Switch back to master
    git checkout master
 Delete the branch again
    git branch -d feature_x
-a branch is not available to others unless you push the branch to your remote repository.
+A branch is not available to others unless you push the branch to your remote repository.
 
 *** Make changes to source directory
 
