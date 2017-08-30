@@ -3,17 +3,17 @@
 ### Add name, email, push mechanism
 [[ One time activity (loads ~/.gitconfig) ]]  
 
-`  git config --global user.name "Ron Grimes"`  
-`  git config --global user.email ron.grimes@pobox.com`  
-`  git config --global push.default "simple"`    [[ verify  ]]
+`git config --global user.name "Ron Grimes"`  
+`git config --global user.email ron.grimes@pobox.com`  
+`git config --global push.default "simple"`    [[ verify  ]]
 
 ### Check global values   
-`  git config -l`
+`git config -l`
 
 ---
 
 ### Project Initialize:  
-`   git init`
+`git init`
 
 ### Create project on Github with a "projectname". Create with:
 * README.md
@@ -21,24 +21,24 @@
 * .gitignore (use python by default)
 
 ### Link to repo at github.com  
-`   git remote add origin https://github.com/rongrimes/project_name`
+`git remote add origin https://github.com/rongrimes/project_name`
    
 ### Review  
-`  git status`
+`git status`
 
 ### Initial/Early actions  
-`  git add <files>`
+`git add <files>`
 
 ### Status / Log  
-`  git status`
+`git status`
    
 ### Commit files   
-   git commit -am "messsage"    [[ commit all files, with message ]]
-   git log (run after the first commit)
+`git commit -am "messsage"`   [[ commit all files, with message ]]  
+`git log` (run after the first commit)
    
 ### Upload to Github
-   git push origin master (pushes all files up)
-        > requires login	
+`git push origin master (pushes all files up)`  
+* requires login	
 
 ---
 
@@ -46,25 +46,34 @@
 Set tag: [optional]	[[ verify ]]
 
 ### Create a new branch named "feature_x" and switch to it using
-   git checkout -b feature_x
+`git checkout -b feature_x`
+
 ### Switch back to master
-   git checkout master
+`git checkout master`
+   
 ### Delete the branch again
-   git branch -d feature_x
+`git branch -d feature_x`
+   
 A branch is not available to others unless you push the branch to your remote repository.
 
 *** Make changes to source directory
 
 [if a branch was created]
-   git commit -m "message"
-   git merge master
+`git commit -m "message"`
+`git merge master`
 
 ### Tag [optional]
-   git tag 1.0.0 <10 chars of commit ID>
-
-   
+`git tag 1.0.0 <10 chars of commit ID>`
+  
 ### Upload
-git push
+Use this to push the latest to _github_ - usually after a committed update.  
+`git push`
+
+### Download
+Use this to get the latest from _github_ - often after updating README.md.  
+`git push`
+
+
 
 ---
 # To print
