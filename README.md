@@ -80,4 +80,4 @@ Use this to get the latest from _github_ - often after updating README.md.
 
 See: [adamburmister/gitprint.com](https://github.com/adamburmister/gitprint.com)
 
-To view a markdown file on Github: in the URL bar replace the `github.com` part of the URL with `gitprint.com`. The markdown file will be rendered to a printable PDF.
+In the URL bar replace the `github.com` part of the URL with `gitprint.com`. The markdown file will be rendered to a printable PDF.
