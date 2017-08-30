@@ -51,14 +51,14 @@ Set tag: [optional]	[[ verify ]]
 ### Switch back to master
 `git checkout master`
    
-### Delete the branch again
-`git branch -d feature_x`
-   
 A branch is not available to others unless you push the branch to your remote repository.
 
 *** Make changes to source directory
 
-[if a branch was created]
+### Delete the branch
+`git branch -d feature_x`
+   
+### Commit a branch
 `git commit -m "message"`
 `git merge master`
 
