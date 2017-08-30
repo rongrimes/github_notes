@@ -1,2 +1,2 @@
 # git_instructions
-Guidlelines of registering and maintaining a project in git/github
+Guidlelines for registering and maintaining a project in git/github
