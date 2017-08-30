@@ -65,3 +65,10 @@ A branch is not available to others unless you push the branch to your remote re
    
 ### Upload
 git push
+
+---
+# To print
+
+See: [adamburmister/gitprint.com](https://github.com/adamburmister/gitprint.com)
+
+To view a markdown file on Github: in the URL bar replace the `github.com` part of the URL with `gitprint.com`. The markdown file will be rendered to a printable PDF.
