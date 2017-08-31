@@ -23,6 +23,9 @@ Alternative: `matching`.
 * LICENSE
 * .gitignore (use python by default)
 
+`git pull origin master` to bring files to local box
+`git push origin master` to sync files from local box
+
 ### Link to repo at github.com  
 `git remote add origin https://github.com/rongrimes/project_name`
    
