@@ -5,7 +5,10 @@
 
 `git config --global user.name "Ron Grimes"`  
 `git config --global user.email ron.grimes@pobox.com`  
-`git config --global push.default "simple"`    [[ verify  ]]
+`git config --global push.default simple`  
+Alternative: `matching`.  
+When push.default is set to 'matching', git will push local branches to the remote branches that already exist with the same name. ]] 
+
 
 ### Check global values   
 `git config -l`
