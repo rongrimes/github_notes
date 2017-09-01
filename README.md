@@ -84,8 +84,7 @@ You are now set up to develop the project
 `git log` (run after the first commit)
    
 ### Upload to Github
-`git push`  
-* requires login	
+`git push`  (requires login)
 
 ### Download
 Use this to get the latest from _github_ - often after updating README.md.  
@@ -96,9 +95,9 @@ Use this to get the latest from _github_ - often after updating README.md.
 ## Operational cycle
 
 Best practices:
-* http://nvie.com/posts/a-successful-git-branching-model/
-* https://sdlambert.github.io/2015/04/09/git-workflow-for-solo-development/
-* https://softwareengineering.stackexchange.com/questions/tagged/solo-development
+* A successful Git branching model: http://nvie.com/posts/a-successful-git-branching-model/
+* A Git Workflow for Solo Projects: https://sdlambert.github.io/2015/04/09/git-workflow-for-solo-development/
+* `solo-development` in `softwareengineering.stackexchange.com`: https://softwareengineering.stackexchange.com/questions/tagged/solo-development
 
 From here, solo-development sites suggest a single branch (say "develop"), develop and commit on this branch.
 
@@ -124,7 +123,7 @@ _** Make changes here to the source directory **_
 **Delete the branch**  
 `git branch -d develop`
    
-**Commit a branch**  
+**Commit a change**  
 `git commit -m "message"`  
 `git merge master`
 
