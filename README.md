@@ -57,70 +57,65 @@ On github:
   * Click `Commit directly to the master branch. `
   * Click `Commit new file`
 
+## .gitignore
+On github:
+* Click `<>Code` to see current files.
+* Click `Create new file`
+* Filename: .gitignore (a button will appear to the right.)
+* Click `Choose .gitignore template` (optional)
+* (Optional) Choose Python
+* At bottom of the page:
+  * Click `Commit directly to the master branch. `
+  * Click `Commit new file`
 
 
-* .gitignore (use python by default)
+## Sync with development platform
+`git pull`
+`git status`  to review
 
-`git pull origin master` to bring files to local box
-`git push origin master` to sync files from local box
-
-### Link to repo at github.com  
-`git remote add origin https://github.com/rongrimes/project_name`
-   
-### Review  
-`git status`
+You are now set up to develop the project
+---
 
 ### Initial/Early actions  
 `git add <files>`
 
-### Status / Log  
-`git status`
-   
 ### Commit files   
 `git commit -am "messsage"`   [[ commit all files, with message ]]  
 `git log` (run after the first commit)
    
 ### Upload to Github
-`git push origin master (pushes all files up)`  
+`git push`  
 * requires login	
+
+### Download
+Use this to get the latest from _github_ - often after updating README.md.  
+`git pull`
 
 ---
 
 ## Operational cycle
-Set tag: [optional]	[[ verify ]]
-
-### Create a new branch named "feature_x" and switch to it using
+**Create a new branch named "feature_x" and switch to it**  
 `git checkout -b feature_x`
 
-### Switch back to master
+**Switch back to master**  
 `git checkout master`
    
 A branch is not available to others unless you push the branch to your remote repository.
 
-*** Make changes to source directory
+*** Make changes here to the source directory ***
 
-### Delete the branch
+**Delete the branch**  
 `git branch -d feature_x`
    
-### Commit a branch
+**Commit a branch**  
 `git commit -m "message"`
 `git merge master`
 
-### Tag [optional]
+**Tag [optional]**  [[ Not tested yet ]] 
 `git tag 1.0.0 <10 chars of commit ID>`
   
-### Upload
-Use this to push the latest to _github_ - usually after a committed update.  
-`git push`
-
-### Download
-Use this to get the latest from _github_ - often after updating README.md.  
-`git push`
-
-
-
 ---
-# To print
+# To print this README
 
 See: [adamburmister/gitprint.com](https://github.com/adamburmister/gitprint.com)
 
