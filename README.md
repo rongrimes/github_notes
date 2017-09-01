@@ -127,7 +127,7 @@ _** Make changes here to the source directory **_
 `git commit -m "message"`  
 `git merge master`
 
-**Tag [optional]**  [[ Not tested yet ]] 
+**Tag [optional]**  [[ Not tested yet ]]  
 `git tag 1.0.0 <10 chars of commit ID>`
   
 ---
