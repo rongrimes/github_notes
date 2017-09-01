@@ -47,13 +47,18 @@ Note: Github will substitute in correct values for username and projectname.
 
 ## License file
 On github:
+* Click `<>Code` to see current files.
+* Click `Create new file`
+* Filename: license (a button will appear to the right.)
+* Click `Choose a license template`
+* Choose MIT (or other)
+* Click `Review and submit`
+* At bottom of the page:
+  * Click `Commit directly to the master branch. `
+  * Click `Commit new file`
 
-### Project Initialize:  
-`git init`
 
-### Create project on Github with a "projectname". Create with:
-* README.md
-* LICENSE
+
 * .gitignore (use python by default)
 
 `git pull origin master` to bring files to local box
