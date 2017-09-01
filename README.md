@@ -15,6 +15,39 @@ Alternative: `matching`.
 
 ---
 
+### Create project on Github
+Project: projectname
+
+Step 1. Create a new repository, with required name.
+* Give brief description (optional)
+* Do not add files (example: README.md, LICENSE, .gitignore)
+* Click **Create Repository**
+
+Step 2. Collect the code in `…or create a new repository on the command line`
+* Load to the clipboard, or other transfer means
+
+Step 3. On the local platform (Raspberry Pi, Mint, etc.)
+* `cd` to project directory
+* This directroy can have project files but must not be using `git`. (Check for the presense of the `.git` directory)
+
+Step 4. Run the code collected above.
+
+`echo "# projectname" >> README.md`  
+`git init`  
+`git add README.md`  
+`git commit -m "first commit"`  
+`git remote add origin https://github.com/rongrimes/projectname.git`  
+`git push -u origin master`  
+
+This will:
+* Create a default README.md
+* Initialize git
+* Commit and upload local files to github repository  
+Note: Github will substitute in correct values for username and projectname.
+
+## License file
+On github:
+
 ### Project Initialize:  
 `git init`
 
