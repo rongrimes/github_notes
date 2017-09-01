@@ -97,18 +97,25 @@ Use this to get the latest from _github_ - often after updating README.md.
 **Create a new branch named "feature_x" and switch to it**  
 `git checkout -b feature_x`
 
+**Switch back to branch**  
+`git checkout feature_x`
+   
 **Switch back to master**  
 `git checkout master`
    
+**Show branches on local repository**  
+`git checkout -a`  
+Note: The current branch gets shown with "*".
+
 A branch is not available to others unless you push the branch to your remote repository.
 
-*** Make changes here to the source directory ***
+_** Make changes here to the source directory **_
 
 **Delete the branch**  
 `git branch -d feature_x`
    
 **Commit a branch**  
-`git commit -m "message"`
+`git commit -m "message"`  
 `git merge master`
 
 **Tag [optional]**  [[ Not tested yet ]] 
