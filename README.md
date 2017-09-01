@@ -70,7 +70,7 @@ On github:
 
 
 ## Sync with development platform
-`git pull`
+`git pull`  
 `git status`  to review
 
 You are now set up to develop the project
@@ -94,11 +94,21 @@ Use this to get the latest from _github_ - often after updating README.md.
 ---
 
 ## Operational cycle
-**Create a new branch named "feature_x" and switch to it**  
-`git checkout -b feature_x`
+
+Best practices:
+* http://nvie.com/posts/a-successful-git-branching-model/
+* https://sdlambert.github.io/2015/04/09/git-workflow-for-solo-development/
+* https://softwareengineering.stackexchange.com/questions/tagged/solo-development
+
+From here, solo-development sites suggest a single branch (say "develop"), develop and commit on this branch.
+
+Then periodically, merge `develop` into `master` and push to the main repository. 
+
+**Create a new branch named "develop" and switch to it**  
+`git checkout -b develop`
 
 **Switch back to branch**  
-`git checkout feature_x`
+`git checkout develop`
    
 **Switch back to master**  
 `git checkout master`
@@ -112,7 +122,7 @@ A branch is not available to others unless you push the branch to your remote re
 _** Make changes here to the source directory **_
 
 **Delete the branch**  
-`git branch -d feature_x`
+`git branch -d develop`
    
 **Commit a branch**  
 `git commit -m "message"`  
