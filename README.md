@@ -3,9 +3,11 @@
 ### Add name, email, push mechanism
 [[ One time activity (loads ~/.gitconfig) ]]  
 
-`git config --global user.name "Ron Grimes"`  
-`git config --global user.email ron.grimes@pobox.com`  
-`git config --global push.default simple`  
+```
+git config --global user.name "Ron Grimes"
+git config --global user.email ron.grimes@pobox.com
+git config --global push.default simple
+```  
 Alternative: `matching`.  
 [[ When push.default is set to 'matching', git will push local branches to the remote branches that already exist with the same name. ]] 
 
@@ -32,12 +34,14 @@ Step 3. On the local platform (Raspberry Pi, Mint, etc.)
 
 Step 4. Run the code collected above.
 
-`echo "# projectname" >> README.md`  
-`git init`  
-`git add README.md`  
-`git commit -m "first commit"`  
-`git remote add origin https://github.com/rongrimes/projectname.git`  
-`git push -u origin master`  
+```
+echo "# projectname" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rongrimes/projectname.git
+git push -u origin master
+```
 
 This will:
 * Create a default README.md
@@ -70,7 +74,9 @@ On github:
 
 
 ## Sync with development platform
-`git pull`  
+```
+git pull
+```
 `git status`  to review
 
 You are now set up to develop the project
@@ -124,8 +130,10 @@ _** Make changes here to the source directory **_
 `git branch -d develop`
    
 **Commit a change**  
-`git commit -m "message"`  
-`git merge master`
+```
+git commit -m "message"
+git merge master
+```
 
 **Tag [optional]**  [[ Not tested yet ]]  
 `git tag 1.0.0 <10 chars of commit ID>`
