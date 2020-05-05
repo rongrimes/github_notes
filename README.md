@@ -1,7 +1,9 @@
 # Guidlelines for registering and maintaining a project in git/github
 
+#### On a local machine
+
 ### Add name, email, push mechanism
-[[ One time activity (loads ~/.gitconfig) ]]  
+[[ One time activity (loads ~/.gitconfig) ]] 
 
 ```
 git config --global user.name "Ron Grimes"
@@ -11,6 +13,11 @@ git config --global push.default simple
 Alternative: `matching`.  
 [[ When push.default is set to 'matching', git will push local branches to the remote branches that already exist with the same name. ]] 
 
+## Set env values
+bash
+```
+GIT-EDITOR=vim
+```
 
 ### Check global values   
 `git config -l`
