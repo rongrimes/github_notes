@@ -1,6 +1,6 @@
 # Guidlelines for registering and maintaining a project in git/github
 
-#### On a local machine
+## On a local machine
 
 ### Add name, email, push mechanism
 [[ One time activity (loads ~/.gitconfig) ]] 
@@ -13,7 +13,7 @@ git config --global push.default simple
 Alternative: `matching`.  
 [[ When push.default is set to 'matching', git will push local branches to the remote branches that already exist with the same name. ]] 
 
-## Set env values
+### Set env values
 bash
 ```
 GIT-EDITOR=vim
@@ -151,3 +151,8 @@ git merge master
 See: [adamburmister/gitprint.com](https://github.com/adamburmister/gitprint.com)
 
 In the URL bar replace the `github.com` part of the URL with `gitprint.com`. The markdown file will be rendered to a printable PDF.
+
+---
+# Editing Notes
+
+See this [project's wiki](https://github.com/rongrimes/git_instructions/wiki) for wiki / README.md markup language.
