@@ -93,7 +93,14 @@ You are now set up to develop the project
 `git add <files>`
 
 ### Commit files   
+Use editor to add descriptive content.
+
+`git commit`
+
+alt: 
+
 `git commit -am "messsage"`   [[ commit all files, with message ]]  
+
 `git log` (run after the first commit)
    
 ### Upload to Github
@@ -126,7 +133,7 @@ Then periodically, merge `develop` into `master` and push to the main repository
 `git checkout master`
    
 **Show branches on local repository**  
-`git checkout -a`  
+`git brannch -a`  
 Note: The current branch gets shown with "*".
 
 A branch is not available to others unless you push the branch to your remote repository.
