@@ -10,6 +10,10 @@ git config --global user.name "Ron Grimes"
 git config --global user.email ron.grimes@pobox.com
 git config --global push.default simple
 ```  
+`push.default`  
+git will refuse to push if the upstream branch’s name is different from the local one. This is the safest option and is suited for beginners. (ref: [Git - git-config Documentation](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushdefault))
+
+
 Alternative: `matching`.  
 [[ When push.default is set to 'matching', git will push local branches to the remote branches that already exist with the same name. ]] 
 
