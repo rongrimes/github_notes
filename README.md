@@ -4,9 +4,9 @@ This repository contains my technical cheatnotes and has evolved over time. The 
 
 ## Contents
 1. [git/github: Guidlelines for registering and maintaining a project](#gitgithub-guidlelines-for-registering-and-maintaining-a-project)
-1. [wiki: github Wiki Markup Cheatsheet](https://github.com/rongrimes/github_notes/wiki#github-wiki-markup-cheatsheet)
-1. [Using a Python Virtual Environment](wiki/Python-Virtual-Environment)
-1. [Building a Django project](https://github.com/rongrimes/github_notes/wiki)
+1. [wiki: github Wiki Markup Cheatsheet](../../wiki#github-wiki-markup-cheatsheet)
+1. [Using a Python Virtual Environment](../../wiki/Python-Virtual-Environment)
+1. [Building a Django project](../../wiki/DjangoProject)
 
 ***
 
