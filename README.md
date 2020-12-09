@@ -1,4 +1,16 @@
-# Guidlelines for registering and maintaining a project in git/github
+# Ron's git/github/development Notes
+
+This repository contains my technical cheatnotes and has evolved over time. The content is shared between this README file, and in the wiki for this repository.
+
+## Contents
+1. [git/github: Guidlelines for registering and maintaining a project]()
+1. [wiki: github Wiki Markup Cheatsheet]()
+1. [Using a Python Virtual Environment]()
+1. [Building a Django project]()
+
+
+
+# git/github: Guidlelines for registering and maintaining a project
 
 ## On a local machine
 
