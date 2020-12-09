@@ -3,12 +3,12 @@
 This repository contains my technical cheatnotes and has evolved over time. The content is shared between this README file, and in the wiki for this repository.
 
 ## Contents
-1. [git/github: Guidlelines for registering and maintaining a project]()
-1. [wiki: github Wiki Markup Cheatsheet]()
-1. [Using a Python Virtual Environment]()
-1. [Building a Django project]()
+1. [git/github: Guidlelines for registering and maintaining a project](#gitgithub-guidlelines-for-registering-and-maintaining-a-project)
+1. [wiki: github Wiki Markup Cheatsheet](https://github.com/rongrimes/github_notes/wiki#github-wiki-markup-cheatsheet)
+1. [Using a Python Virtual Environment](https://github.com/rongrimes/github_notes/wiki)
+1. [Building a Django project](https://github.com/rongrimes/github_notes/wiki)
 
-
+***
 
 # git/github: Guidlelines for registering and maintaining a project
 
@@ -70,7 +70,13 @@ This will:
 * Create a default README.md
 * Initialize git
 * Commit and upload local files to github repository  
-Note: Github will substitute in correct values for username and projectname.
+Note: Github will substitute in correct values for username and projectname.]
+
+### Notes
+1. Use `git add -A` to add all files.
+1. Use [`gitignore.io`](#) to build a .gitignore file for the project.
+
+***
 
 ## License file
 On github:
@@ -84,6 +90,8 @@ On github:
   * Click `Commit directly to the master branch. `
   * Click `Commit new file`
 
+***
+
 ## .gitignore
 On github:
 * Click `<>Code` to see current files.
@@ -95,6 +103,10 @@ On github:
   * Click `Commit directly to the master branch. `
   * Click `Commit new file`
 
+### Notes
+1. Use [`gitignore.io`](#) to build a .gitignore file for the project.
+
+***
 
 ## Sync with development platform
 ```
@@ -126,7 +138,7 @@ alt:
 Use this to get the latest from _github_ - often after updating README.md.  
 `git pull`
 
----
+***
 
 ## Operational cycle
 
@@ -167,15 +179,13 @@ git merge master
 
 **Tag [optional]**  [[ Not tested yet ]]  
 `git tag 1.0.0 <10 chars of commit ID>`
-  
+
+***
+## Web based git
+
+Review [gitkraken](https://www.gitkraken.com/) for usefulness.
+
 ---
 # To print this README
 
-See: [adamburmister/gitprint.com](https://github.com/adamburmister/gitprint.com)
-
-In the URL bar replace the `github.com` part of the URL with `gitprint.com`. The markdown file will be rendered to a printable PDF.
-
----
-# Editing Notes
-
-See this [project's wiki](https://github.com/rongrimes/git_instructions/wiki) for wiki / README.md markup language.
+(Previous reference no longer valid... need to research further).
