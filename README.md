@@ -33,6 +33,7 @@ Alternative: `matching`.
 bash
 ```
 GIT_EDITOR=vim
+export GIT_EDITOR
 ```
 
 ### Check global values   
