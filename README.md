@@ -32,7 +32,7 @@ Alternative: `matching`.
 ### Set env values
 bash
 ```
-GIT-EDITOR=vim
+GIT_EDITOR=vim
 ```
 
 ### Check global values   
