@@ -118,9 +118,29 @@ git pull
 You are now set up to develop the project
 ---
 
-### Initial/Early actions  
-`git add <files>`
+### Initial/Early actions
+`git add <files>`  
+`git add -A` for all files
 
+### Remove files from the repository
+`git rm <options> <files>`
+
+WARNING!! BY DEFAULT `rm` deletes a file from the repository, AND from the filesystem.
+
+#### Options
+`<filename>`  
+The files to remove. You can use filename / path to a single file, multiple filenames (delimited by spaces) and wildcard patterns (e.g. test.*).
+ 
+--cached  
+Removes the file only from the Git repository, but not from the filesystem. BY DEFAULT, the git rm command deletes files both from the Git repository as well as the filesystem.
+
+-r  
+Recursively removes folders. When a path to a directory is specified, the -r flag allows Git to remove that folder including all its contents.
+
+--dry-run  (-n)  
+Files are not actually removed. You will see the files that Git would remove - but no files are actually deleted.
+
+***
 ### Commit files   
 Use editor to add descriptive content.
 
