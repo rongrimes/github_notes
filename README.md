@@ -198,15 +198,3 @@ git commit -m "message"
 git merge master
 ```
 
-**Tag [optional]**  [[ Not tested yet ]]  
-`git tag 1.0.0 <10 chars of commit ID>`
-
-***
-## Web based git
-
-Review [gitkraken](https://www.gitkraken.com/) for usefulness.
-
----
-# To print this README
-
-(Previous reference no longer valid... need to research further).
