@@ -198,3 +198,15 @@ git commit -m "message"
 git merge master
 ```
 
+***
+## Quick Note: Create/Sync Repository on desktop and _github_
+This note comes from the Django class (see Django notes).
+
+1. Create project on the desktop.
+1. On _github_, create new repository (```portfolio-project```).
+1. On desktop:
+```  
+git remote add origin https://github.com/rongrimes/portfolio—project.git  
+git push -u origin master
+```
+The project is now synchronized on the desktop and at _github_.
