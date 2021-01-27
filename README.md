@@ -200,7 +200,7 @@ git merge master
 
 ***
 ## Quick Note: Create/Sync Repository on desktop and _github_
-This note comes from the Django class (see Django notes).
+(This note comes from the [Django class](../../wiki/Django-Project).)
 
 1. Create project on the desktop.
 1. On _github_, create new repository (```portfolio-project```).
@@ -210,3 +210,11 @@ git remote add origin https://github.com/rongrimes/portfolio—project.git
 git push -u origin master
 ```
 The project is now synchronized on the desktop and at _github_.
+
+***
+## Cloning to another location
+(This note comes from the [Django class](../../wiki/Django-Project).)
+
+Use these steps to deploy code to an external server.
+1. Copy project string on _github_: ```https://github.com/rongrimes/portfolio-project```
+1. Run clone command on deployment server: ```git clone https://github.com/rongrimes/portfolio-project.git```
