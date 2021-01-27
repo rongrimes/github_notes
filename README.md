@@ -218,3 +218,4 @@ The project is now synchronized on the desktop and at _github_.
 Use these steps to deploy code to an external server.
 1. Copy project string on _github_: ```https://github.com/rongrimes/portfolio-project```
 1. Run clone command on deployment server: ```git clone https://github.com/rongrimes/portfolio-project.git```
+1. To update, _push_ on development site, then _pull_ on the deployment site.
