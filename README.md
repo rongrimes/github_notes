@@ -105,7 +105,7 @@ On github:
   * Click `Commit new file`
 
 ### Notes
-1. Use [`gitignore.io`](#) to build a .gitignore file for the project.
+* Use [`gitignore.io`](https://gitignore.io) to build a .gitignore file for the project.
 
 ***
 
@@ -113,6 +113,9 @@ On github:
 ```
 git pull
 ```
+
+or ```git pull origin master``` - to only get _master_ branch updates
+
 `git status`  to review
 
 You are now set up to develop the project
@@ -153,11 +156,13 @@ alt:
 `git log` (run after the first commit)
    
 ### Upload to Github
-`git push`  (requires login)
+`git push`  (requires login)   
+or `git push origin master` - to only push _master_ branch updates
 
 ### Download
 Use this to get the latest from _github_ - often after updating README.md.  
-`git pull`
+`git pull`  
+or ```git pull origin master``` - to only get _master_ branch updates
 
 ***
 
