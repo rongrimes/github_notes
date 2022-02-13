@@ -224,3 +224,35 @@ Use these steps to deploy code to an external server.
 1. Copy project string on _github_: ```https://github.com/rongrimes/portfolio-project```
 1. Run clone command on deployment server: ```git clone https://github.com/rongrimes/portfolio-project.git```
 1. To update, _push_ on development site, then _pull_ on the deployment site.
+
+*** 
+
+## Other learning sources ##
+```man <git topic>```
+
+Good intro topics:
+```
+gittutorial - A tutorial introduction to Git
+giteveryday - A useful minimum set of commands for Everyday Git
+```
+
+
+Other Tutorial topics:
+```
+gitcli - Git command-line interface and conventions
+gitcore-tutorial - A Git core tutorial for developers
+gitcredentials - providing usernames and passwords to Git
+gitcvs-migration - Git for CVS users
+gitdiffcore - Tweaking diff output
+gitglossary - A Git Glossary
+gitmodules - Defining submodule properties
+gitnamespaces - Git namespaces
+gitrevisions - Specifying revisions and ranges for Git
+gitsubmodules - mounting one repository inside another
+gittutorial-2 - A tutorial introduction to Git: part two
+gitworkflows - An overview of recommended workflows with Git
+
+```
+
+Also see:
+```man git<tab>```
