@@ -21,6 +21,7 @@ This repository contains my technical cheatnotes and has evolved over time. The 
 git config --global user.name "Ron Grimes"
 git config --global user.email ron.grimes@pobox.com
 git config --global push.default simple
+git config --global init.defaultBranch main
 ```  
 `push.default`  
 git will refuse to push if the upstream branch’s name is different from the local one. This is the safest option and is suited for beginners. (ref: [Git - git-config Documentation](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushdefault))
