@@ -41,21 +41,25 @@ export GIT_EDITOR
 `git config -l`
 
 ---
+New project: On local site ()
+To build a project see: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
-### Create project on Github
+---
+### Alternative: Create project on Github
 Project: projectname
 
 Step 1. Create a new repository, with required name.
+* Click + / **Create Repository**
 * Give brief description (optional)
-* Do not add files (example: README.md, LICENSE, .gitignore)
-* Click **Create Repository**
+* If appropriate add files (README.md, LICENSE (MIT is simplest), .gitignore)
+* Save to create the repository on github
 
 Step 2. Collect the code in `…or create a new repository on the command line`
 * Load to the clipboard, or other transfer means
 
 Step 3. On the local platform (Raspberry Pi, Mint, etc.)
 * `cd` to project directory
-* This directroy can have project files but must not be using `git`. (Check for the presense of the `.git` directory)
+* This directory can have project files but must not be using `git`. (Check for the presense of the `.git` directory)
 
 Step 4. Run the code collected above.
 
@@ -76,7 +80,6 @@ Note: Github will substitute in correct values for username and projectname.]
 
 ### Notes
 1. Use `git add -A` to add all files.
-1. Use [`gitignore.io`](#) to build a .gitignore file for the project.
 
 ***
 
