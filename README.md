@@ -51,8 +51,8 @@ Project: projectname
 Step 1. Create a new repository, with required name.
 * Click + / **Create Repository**
 * Give brief description (optional)
-* If appropriate add files (README.md, LICENSE (MIT is simplest), .gitignore)
-* Save to create the repository on github
+* Make sure NOT to select creating any local files (README, licence, .gitignore) otherwise local transfer will not happen. 
+* Click **Create Repository**
 
 Step 2. Collect the code in `…or create a new repository on the command line`
 * Load to the clipboard, or other transfer means
@@ -77,6 +77,22 @@ This will:
 * Initialize git
 * Commit and upload local files to github repository  
 Note: Github will substitute in correct values for username and projectname.]
+
+**git push** responds:
+The authenticity of host 'github.com (140.82.**.**)' can't be established.
+ECDSA key fingerprint is SHA256:*******************************************.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Yes: Failed! 
+
+```git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+
+
 
 ### Notes
 1. Use `git add -A` to add all files.
