@@ -79,20 +79,42 @@ This will:
 Note: Github will substitute in correct values for username and projectname.]
 
 **git push** responds:
+```
 The authenticity of host 'github.com (140.82.**.**)' can't be established.
 ECDSA key fingerprint is SHA256:*******************************************.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
-Yes: Failed! 
+>> yes
+```
+If this fails (like on a  "new" platform), see: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys
 
-```git@github.com: Permission denied (publickey).
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
+Create a new key:
+```
+ssh-keygen -t ed25519 -C "**myemailaddress@***email.com"
+passphrase: <none> (lower security)
 ```
 
+### Create Access Token
 
+See: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens  
+rec: use a personal access token; it's simpler.
 
+Directions: see [Creating a personal access token classic](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
+
+Ensure an ssh key is associated with the account:
+see: https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey
+```settings > SSH & GPG keys ```
+
+Check ssh key exists. If not, click ```New SSH key``` and add the *.pub contents from ~/.ssl
+
+```git push```
+
+### Set credentials
+```
+git config --global credential.helper store
+```
+Then do, git push/pull (username,pw will be requested). 
+Credentials will be stored in ~/.git-credentials  
+ref: https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git
 
 ### Notes
 1. Use `git add -A` to add all files.
